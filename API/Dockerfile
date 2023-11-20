@@ -4,9 +4,9 @@ WORKDIR /app
 
 COPY requirements.txt .
 
-RUN pip3 install --no-cache-dir install -r requirements.txt
+RUN /bin/sh -c pip3 --no-cache-dir install -r requirements.txt
 
-COPY . .
+COPY . /app
 
 EXPOSE 5000
 
