@@ -16,10 +16,10 @@ resource "aws_ecs_task_definition" "my-task-definition" {
   container_definitions = <<TASK_DEFINITION
   [
     {
-      "name": 
-      "image":
-      "cpu":
-      "memory":
+      "name": ,
+      "image": ,
+      "cpu": ,
+      "memory": ,
       "essential":
     }
   ]
